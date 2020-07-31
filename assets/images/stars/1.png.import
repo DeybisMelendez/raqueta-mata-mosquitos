@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/raqueta.png-ffdc86fde01d2c368d8413172d5b9abb.stex"
+path="res://.import/1.png-22ade263c041daa4a471d50699505f21.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://raqueta.png"
-dest_files=[ "res://.import/raqueta.png-ffdc86fde01d2c368d8413172d5b9abb.stex" ]
+source_file="res://assets/images/stars/1.png"
+dest_files=[ "res://.import/1.png-22ade263c041daa4a471d50699505f21.stex" ]
 
 [params]
 

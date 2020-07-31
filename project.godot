@@ -16,9 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="raqueta-mata-mosquitos"
-run/main_scene="res://Raqueta.tscn"
-boot_splash/image="res://android_resources/splash.png"
-boot_splash/bg_color=Color( 0, 0.0196078, 1, 1 )
+run/main_scene="res://main/Raqueta.tscn"
 config/icon="res://android_resources/icon_main.png"
 
 [display]

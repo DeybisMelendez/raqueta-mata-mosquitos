@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/switch-button-off.png-8258adbca7a8a511ea6922e5591e9df0.stex"
+path="res://.import/2.png-a710fcfefa96dcf373c95f7898e77085.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://switch-button-off.png"
-dest_files=[ "res://.import/switch-button-off.png-8258adbca7a8a511ea6922e5591e9df0.stex" ]
+source_file="res://assets/images/stars/2.png"
+dest_files=[ "res://.import/2.png-a710fcfefa96dcf373c95f7898e77085.stex" ]
 
 [params]
 
