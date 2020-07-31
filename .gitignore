@@ -1,6 +1,5 @@
-
+exports/
 # Godot-specific ignores
-outputs/
 .import/
 export.cfg
 export_presets.cfg
