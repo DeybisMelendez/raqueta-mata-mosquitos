@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/spark.wav-ea719f6512ab9fe97157818b392782b5.sample"
+path="res://.import/spark.wav-4fc1568b52b042ef2291b45a504b3288.sample"
 
 [deps]
 
-source_file="res://stars/spark.wav"
-dest_files=[ "res://.import/spark.wav-ea719f6512ab9fe97157818b392782b5.sample" ]
+source_file="res://assets/sounds/spark.wav"
+dest_files=[ "res://.import/spark.wav-4fc1568b52b042ef2291b45a504b3288.sample" ]
 
 [params]
 
