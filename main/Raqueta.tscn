@@ -36,6 +36,7 @@ __meta__ = {
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+custom_constants/separation = 0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -50,9 +51,9 @@ __meta__ = {
 }
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
-margin_top = 44.0
+margin_top = 40.0
 margin_right = 720.0
-margin_bottom = 112.0
+margin_bottom = 108.0
 alignment = 1
 __meta__ = {
 "_edit_use_anchors_": false
@@ -67,9 +68,9 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Score: 0"
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
-margin_top = 116.0
+margin_top = 108.0
 margin_right = 720.0
-margin_bottom = 224.0
+margin_bottom = 216.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -98,9 +99,9 @@ align = 1
 expand_icon = true
 
 [node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
-margin_top = 228.0
+margin_top = 216.0
 margin_right = 720.0
-margin_bottom = 336.0
+margin_bottom = 324.0
 
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer3"]
 margin_top = 37.0
@@ -211,3 +212,5 @@ position = Vector2( 51.8029, -118.717 )
 
 [node name="24" parent="CenterContainer/Control" instance=ExtResource( 6 )]
 position = Vector2( -6.47571, -75.5476 )
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
