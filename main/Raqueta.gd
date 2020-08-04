@@ -7,7 +7,7 @@ func rate():
 	OS.shell_open("https://play.google.com/store/apps/details?id=com.damv.raqueta_mata_mosquitos")
 func _physics_process(_delta):
 	if $VBoxContainer/CheckButton.pressed:
-		var gyroscope = Input.get_gyroscope().length()
+		var gyroscope = 10#Input.get_gyroscope().length()
 		var random
 		if gyroscope > 10:
 			random = randi()%3

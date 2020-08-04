@@ -3,7 +3,7 @@ var sparks = []
 
 func _ready():
 	for i in 9:
-		sparks.append(load("res://stars/" + str(i) + ".png"))
+		sparks.append(load("res://assets/images/stars/" + str(i) + ".png"))
 
 func spark():
 	texture = sparks[randi()%9]
