@@ -1,12 +1,16 @@
 extends Control
 
+onready var Rate = $VBoxContainer/Rate
+onready var Activate = $VBoxContainer/HBoxContainer2/Activate
+onready var Score = $VBoxContainer/HBoxContainer/Score
+
 var score = 0
 func _ready():
-	$VBoxContainer/Rate.connect("button_up", self, "rate")
+	Rate.connect("button_up", self, "rate")
 func rate():
 	OS.shell_open("https://play.google.com/store/apps/details?id=com.damv.raqueta_mata_mosquitos")
 func _physics_process(_delta):
-	if $VBoxContainer/CheckButton.pressed:
+	if Activate.pressed:
 		var gyroscope = 10#Input.get_gyroscope().length()
 		var random
 		if gyroscope > 10:
@@ -25,4 +29,4 @@ func _physics_process(_delta):
 		score = 0
 		set_score(score)
 func set_score(s):
-	$VBoxContainer/HBoxContainer/Label.text = "Score: " + str(s)
+	Score.text = "Score: " + str(s)
