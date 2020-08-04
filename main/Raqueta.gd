@@ -20,21 +20,20 @@ func get_gyroscope():
 func _physics_process(_delta):
 	if Activate.pressed:
 		if Music.pressed:
-			if AudioMusic.is_playing() and Anim.is_playing():
-				var gyroscope = get_gyroscope()
-				if gyroscope > 3:
-					AudioMusic.stream_paused = false
-					Anim.play("music")
-				else:
-					AudioMusic.stream_paused = true
-					Anim.play("stop_music")
-			else:
+			kill_mosquitos()
+			var gyroscope = get_gyroscope()
+			if not AudioMusic.is_playing():
 				AudioMusic.play()
+			if gyroscope > 1:
+				AudioMusic.stream_paused = false
 				Anim.play("music")
+			else:
+				AudioMusic.stream_paused = true
+				Anim.play("stop_music")
 		else:
 			if AudioMusic.is_playing():
 				AudioMusic.stop()
-			if Anim.is_playing():
+			if Anim.is_playing() and Anim.current_animation == "music":
 				Anim.play("stop_music")
 			kill_mosquitos()
 	elif score != 0:

@@ -251,6 +251,7 @@ expand_icon = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
+autoplay = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/music = SubResource( 1 )
