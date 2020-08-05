@@ -8,6 +8,7 @@ onready var Mosquitos = $CenterContainer/Control.get_children()
 onready var AudioMusic = $AudioStreamPlayer
 onready var Anim = $AnimationPlayer
 var score = 0
+
 func _ready():
 	Rate.connect("button_up", self, "rate")
 
