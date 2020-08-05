@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/The Sacados - Pican Los Mosquitos.ogg-8c98e89bb0c38d8b6e8049b6737473ac.oggstr"
+
+[deps]
+
+source_file="res://assets/sounds/The Sacados - Pican Los Mosquitos.ogg"
+dest_files=[ "res://.import/The Sacados - Pican Los Mosquitos.ogg-8c98e89bb0c38d8b6e8049b6737473ac.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
