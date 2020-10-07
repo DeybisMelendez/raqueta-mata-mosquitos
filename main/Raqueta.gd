@@ -1,6 +1,9 @@
 extends Control
 
 onready var Rate = $VBoxContainer/Rate
+onready var Twitter = $VBoxContainer2/Twitter
+onready var Instagram = $VBoxContainer2/Instagram
+onready var Web = $VBoxContainer2/Web
 onready var Activate = $VBoxContainer/HBoxContainer2/Activate
 onready var Score = $VBoxContainer/HBoxContainer/Score
 onready var Music = $VBoxContainer/HBoxContainer3/Music
@@ -11,6 +14,18 @@ var score = 0
 
 func _ready():
 	Rate.connect("button_up", self, "rate")
+	Twitter.connect("button_up", self, "twitter")
+	Instagram.connect("button_up", self, "instagram")
+	Web.connect("button_up", self, "web")
+
+func instagram():
+	OS.shell_open("https://www.instagram.com/deybismelendez/")
+
+func twitter():
+	OS.shell_open("https://twitter.com/Damvcito")
+
+func web():
+	OS.shell_open("https://www.deybismelendez.com/")
 
 func rate():
 	OS.shell_open("https://play.google.com/store/apps/details?id=com.damv.raqueta_mata_mosquitos")

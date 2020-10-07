@@ -70,6 +70,7 @@ __meta__ = {
 [node name="CenterContainer" type="CenterContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+mouse_filter = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -155,9 +156,53 @@ position = Vector2( 51.8029, -118.717 )
 [node name="24" parent="CenterContainer/Control" instance=ExtResource( 6 )]
 position = Vector2( -6.47571, -75.5476 )
 
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 54.0
+margin_top = -1280.0
+margin_right = 668.0
+margin_bottom = -36.0
+custom_constants/separation = 16
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Twitter" type="Button" parent="VBoxContainer2"]
+margin_top = 1092.0
+margin_right = 614.0
+margin_bottom = 1132.0
+custom_fonts/font = ExtResource( 2 )
+text = "Sígueme en Twitter"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Instagram" type="Button" parent="VBoxContainer2"]
+margin_top = 1148.0
+margin_right = 614.0
+margin_bottom = 1188.0
+custom_fonts/font = ExtResource( 2 )
+text = "Sígueme en Instagram"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Web" type="Button" parent="VBoxContainer2"]
+margin_top = 1204.0
+margin_right = 614.0
+margin_bottom = 1244.0
+custom_fonts/font = ExtResource( 2 )
+text = "Visita mi web"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_bottom = -956.0
 custom_constants/separation = 0
 __meta__ = {
 "_edit_use_anchors_": false
